@@ -14,6 +14,12 @@ tunnels:
     ssh_user: root
     ssh_auth_method: password
     ssh_password: super-secret
+  - ssh_address: 103.230.194.143:22
+    local_address: 127.0.0.1:6379
+    remote_address: 127.0.0.1:6379
+    ssh_user: root
+    ssh_auth_method: password
+    ssh_password: super-secret
 ```
 
 ### Config fields
